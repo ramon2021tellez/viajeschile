@@ -100,13 +100,7 @@
                     <p id="list-item-2" class="card-text text-center">Quienes Somos</p>
                 </div> 
     
-    <!--Evento jquery que genera alerta al enviar correo-->
-    <script>
-      $( "#enviarcorreo" ).click(function() {
-        alert("El correo fue enviado correctamente!!");
-        
-      });
-      </script>
+    
 
   <section class="row tamaño1 justify-content-center">
     <div class="col-12 col-md-3">            
@@ -251,10 +245,18 @@
         <label for="exampleInputPassword1">Mensaje</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
+      <button id="enviarcorreo" type="submit" class="btn btn-primary">Enviar</button>
        </form>
     <br>
 </div>  
+<!--Evento jquery que genera alerta al enviar correo-->
+<script>
+  $( "#enviarcorreo" ).click(function() {
+    alert("El correo fue enviado correctamente!!");
+    
+  });
+  </script>
+ <!--fin evento jquery--> 
     <div class="bg-gris footerancho1">
     
     <!---->   
