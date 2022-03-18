@@ -1,0 +1,140 @@
+*{
+    margin: 20;
+    padding: 0;
+}
+.cuerpo{
+    background-color: rgb(236, 244, 245);
+    width: 800px;
+    height: 700px;
+   
+    }
+:root {
+    color:aqua;
+    color:#85c8f5;
+    color:#dddddd;
+    color:#000;
+    color:#fff;
+    color:#dc3545;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white);
+    /* color: #fff;*/
+    background: #000;
+}
+
+.nav--img {
+    height: 3rem;
+}
+.bg-gris{
+   background-color:#85c8f5;
+  /*  background: transparent url("../img/carousel1.jpg") 0% 0% no-repeat padding-box;*/
+    background-size: 100%;
+    opacity: 1;
+    width: 100%;
+    height: 10%;
+}
+
+.font-texto{
+    font-size: 8pt;
+}
+.h1--weigth{
+    font-weight: 700;
+}
+.card-title{
+    font-weight: 500;
+}
+.footer--img {
+    top: 1377px;
+   /* left: 0px;*/
+    width: 50%;
+    height: 50%;
+    /* UI Properties */
+    /*background: #E83E8C 0% 0% no-repeat padding-box;*/
+    opacity: 1;
+        
+    /* width: 40%;
+        height: 100%;
+    /*  background: #e83e8c;*/
+        font-weight: 500;
+        /*font-size: 100%;*/
+    }
+.lobster{
+/*    font-family: 'Fredoka', sans-serif;
+font-family: 'Hubballi', cursive;*/
+font-family: 'Lobster', cursive;
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+font-weight: 400;
+color:#FFFFFF;
+}
+.Cabinregular{
+    font-family: 'Cabin', sans-serif;
+/*font-family: 'Fredoka', sans-serif;
+font-family: 'Hubballi', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+font-weight: 400;
+/*color:#FFFFFF;*/
+}
+.Cabinbold{
+    font-family: 'Cabin', sans-serif;
+    /*font-family: 'Fredoka', sans-serif;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;*/
+    font-weight: 700;
+/*color:#FFFFFF; */
+}
+.tamaño{
+    margin-left: 3%;
+    margin-right:20%;
+}
+.tamaño1{
+    margin-left: 5%;
+    margin-right:5%;
+    text-align: center;
+}
+.tamaño2{
+    margin:left 0;
+    margin: right 0;
+}    
+.footerancho{
+width: 100%;
+height: 20%;
+
+}
+.footerancho1{
+    width: 100%;
+    height: 30%;
+     }
+.bg-rojo{
+    background-color:#DC3545;
+}
+.bg-blanco{
+    color:#dddddd;
+}
+.iconosize{
+    width: 2rem;
+    height: 2rem;
+    text-align: left;
+}
+.cabeza{
+    width: 100%;
+    height: 25%;
+}
+.carrusel{
+    width: 100%;
+    height: 60%;
+    margin-top: 0;
+}
+.fotocarrusel{
+    width: 100%; 
+}

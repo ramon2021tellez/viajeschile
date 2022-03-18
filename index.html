@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <!--google cabin bold-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Fredoka&family=Hubballi&family=Lobster&family=Open+Sans:wght@400;700&family=Raleway:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!--google cabin regular-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Fredoka&family=Hubballi&family=Lobster&family=Open+Sans:wght@400;700&family=Raleway:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- google lobester Regular-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Hubballi&family=Lobster&family=Open+Sans:wght@400;700&family=Raleway:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!--fontawesome coneccion-->
+    <script src="https://kit.fontawesome.com/db02d6ec9b.js" crossorigin="anonymous"></script>
+<!--conexion cdn externa jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+     <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Style propio -->
+    <link rel="stylesheet" href="assets/css/estiloviajes.css">
+</head>
+<body>
+<header class="cabeza">
+ <!-- inicio nav -->
+ <div id="imagenynavegador" class="bg-gris">
+ <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#"><h5 class="Cabinbold text-center"><img class="iconosize" src="assets/img/viajes.svg" ><bh> Viajes Chile</h5></a>
+    <button class="navbar-toggler navbar-ligth" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+       <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto ">
+            <li class="nav-item">
+                <a class="nav-link active" href="#list-item-1">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#list-item-2">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#list-item-3">Destacados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#list-item-4" >Contacto</a>
+            </li>
+        </ul>
+    </div>
+</nav> 
+</div>
+</header>
+   <!-- fin nav -->
+<!-- seccion principal --> 
+     <!--carrusel-->     
+
+ <section class="carrusel">
+      <div class="d-none d-sm-block	d-sm-none d-md-block rounded">
+        <div class="" style="background-color: #8a0a0a;">
+          <div id="platosCarousel" class="carousel slide text-dark" data-ride="carousel">
+            <ol class="carousel-indicators">
+                          </ol>
+                          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-interval="10000">
+                                <img src="assets/img/carousel1.jpg" class="d-block w-100 fotocarrusel" alt="...">
+                              </div>
+                              <div class="carousel-item" data-interval="2000">
+                                <img src="assets/img/carousel2.jpg" class="d-block w-100 fotocarrusel" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img  src="assets/img/carousel3.jpg" class="d-block w-100 fotocarrusel" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </button>
+                          </div>
+          </div>
+        </div>
+      </div>
+      <hr class="d-none d-sm-block	d-sm-none d-md-block" style="border-color:black;">
+    </section>
+   <!--fin carrusel-->
+    <!--inicio tarjeta-->
+                                         
+                <div class="card-body justify-content-center">
+                    <h5 class="card-title"></h5>
+                    <p id="list-item-2" class="card-text text-center">Quienes Somos</p>
+                </div> 
+    
+    <!--Evento jquery que genera alerta al enviar correo-->
+    <script>
+      $( "#enviarcorreo" ).click(function() {
+        alert("El correo fue enviado correctamente!!");
+        
+      });
+      </script>
+
+  <section class="row tamaño1 justify-content-center">
+    <div class="col-12 col-md-3">            
+    <ul class="list-group list-group-flush">
+                    <li class="list-group-item Cabinregular bg-dark ">
+                        <h4 id="ingredientes" class="bg-gris" ><i class="fa-solid fa-plane"></i></h4> 
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>   
+                         </li>
+ </ul>
+ </div> 
+
+ <div class="col-12 col-md-3">   
+                   <ul>
+    <li class="list-group-item Cabinregular bg-dark ">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>   
+                        <h4 id="preparacion" class="bg-gris text-center"><i class="fa-solid fa-mountain"></i></h4>
+                         </li>
+                </ul>  
+  </div>                      
+  <div class="col-12 col-md-3">            
+    <ul class="list-group list-group-flush ">
+                    <li class="list-group-item Cabinregular bg-dark ">
+                        <h4 id="ingredientes" class="bg-gris text-center"> <i class="fa-solid fa-location-dot"></i> </h4> 
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>   
+                         </li>
+ </ul>
+ </div> 
+
+  
+
+        
+    </section>   
+
+         <!--efecto cambio color fuente doble click ingredientes-->
+ <script>
+   $( "#ingredientes,#preparacion" ).dblclick(function() {
+   $(this).css({
+      "color":"red"
+        })
+    });  
+ 
+  </script>
+          <!--fin tarjeta-->  
+          <!--inicio tarjeta-->
+  
+            
+            <h2 id="list-item-3"  class="card-title Cabinbold text-center mx-1">Destacados</h2>
+<section class="row tamaño1 justify-content-center">
+
+            <div class="card col-12 col-md-3 bg-gris">
+                <img id="fotopanqueque" src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 id="panqueques" class="card-title">PANQUEQUES</h5>
+                    <p id="textopanqueque" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          </div>
+  <!--evento desaparecer contenido -->
+  <script>
+    $(function(){
+     $("#panqueques").on("click",function(){
+
+     $ ("#fotopanqueque , #textopanqueque").toggle(1000,function(){
+    })
+     })
+    })
+  </script>
+          <!--fin de tarjeta-->
+          <!--inicio tarjeta-->
+
+  
+            
+            <div class="card col-12 col-md-3 bg-gris">
+                <img id="fototiramisu" src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 id="tiramisu" class="card-title">TIRAMISÚ</h5>
+                    <p id="textotiramisu" class="card-text">example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+ <!--evento desaparecer contenido -->
+ <script>
+  $(function(){
+   $("#tiramisu").on("click",function(){
+
+   $ ("#fototiramisu , #textotiramisu").toggle(1000,function(){
+  })
+   })
+  })
+</script> 
+
+
+ <!--fin de tarjeta-->
+          <!--inicio tarjeta-->
+ 
+            <div class="card col-12 col-md-3 bg-gris">
+                <img id="fotoplateada" src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 id="plateada" class="card-title">Plateada</h5>
+                    <p id="textoplateada" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+
+
+<div class="card col-md-3 bg-gris">
+  <img id="fotoplateada" src="assets/img/card4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+      <h5 id="plateada" class="card-title">Plateada</h5>
+      <p id="textoplateada" class="card-text bg-gris">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+<h5 id="list-item-4" class="card-title">contacto</h5>
+<br>
+</section>
+          <!--fin de tarjeta-->
+<!--evento desaparecer contenido -->
+<script>
+  $(function(){
+   $("#plateada").on("click",function(){
+
+   $ ("#fotoplateada , #textoplateada").toggle(1000,function(){
+  })
+   })
+  })
+</script>          
+</main>
+<!-- inicio footer -->
+
+<footer class="bg-dark">
+<div class="footerancho1 bg-dark">
+    <div class="text-left tamaño1 bg-dark">    
+    <br>
+    <form>
+      <div class="form-group bg-dark">
+        <label for="exampleInputEmail1">Nombre</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Asunto</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+       </form>
+    <br>
+</div>  
+    <div class="bg-gris footerancho1">
+    
+    <!---->   
+    <div id="imagenynavegador" class="bg-gris tamaño1">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <br><br>
+         <a class="navbar-brand" href="#"><h5 class="Cabinbold">Viajes Chile</h5></a>
+         <button class="navbar-toggler navbar-ligth" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+             </button>
+            <div class="collapse navbar-collapse tamaño1" id="navbarSupportedContent">
+             <ul class="navbar-nav ml-auto tamaño1">
+                 <li class="nav-item">
+                     <a class="nav-link active" target="_blank"  href="http://www.github.com"><i class="fa-brands fa-github"></i></a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link active" target="_blank" href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link active" target="_blank" href="http://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link active" target="_blank" href="http://www.facebook.com" ><i class="fa-brands fa-facebook-square"></i></a>
+                 </li>
+             </ul>
+         </div>
+     </nav> 
+     </div>
+          </div>  
+</footer>
+</div>
+<!-- fin footer --> 
+</script>
+<!-- bootstrap scripts con jquery actualizado-->
+<script src="https://code.jquery.com/jquery-3.6.0.js"
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<!--jquery interno-->
+<script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
