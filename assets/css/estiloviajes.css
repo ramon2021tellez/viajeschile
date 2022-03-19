@@ -161,3 +161,16 @@ height: 20%;
       border-radius: 0 !important;
 
   }
+  /*cambiando tamaño iconos redes sociales*/
+  .fa-github{
+      font-size: 2rem;
+  }
+  .fa-instagram{
+    font-size: 2rem;
+  }
+  .fa-twitter-square{
+    font-size: 2rem;  
+  }
+  .fa-facebook-square{
+    font-size: 2rem;  
+  }
