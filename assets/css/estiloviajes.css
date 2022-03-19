@@ -138,14 +138,26 @@ height: 20%;
 .fotocarrusel{
     width: 100%; 
 }
-.header .navbar {
-    background-color: transparent !important;
-  }
-  .header {
-    background: url(img/carousel1.jpg) no-repeat center;
+/*.header{
+  background: url(../img/card1.jpg) no-repeat center;
     background-size: cover;
     min-height: 100vh;
+  }*/
+.header.navbar {
+    background-color: transparent !important;
   }
+
+
   .html{
     scroll-behavior: smooth;
+  }
+  .mi-carrusel{
+      margin-top: -65px;
+  }
+  .mi-nav{
+      z-index: 999;
+      background: none !important;
+      border: 0 !important;
+      border-radius: 0 !important;
+
   }
