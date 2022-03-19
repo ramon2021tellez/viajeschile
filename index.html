@@ -31,7 +31,6 @@
 <body>
 <header class="header">
  <!-- inicio nav -->
- <!-- <div id="imagenynavegador">-->
  <nav class="mi-nav navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#"><h5 class="Cabinbold text-center"><img class="iconosize" src="assets/img/viajes.svg" ><bh> Viajes Chile</h5></a>
     <button class="navbar-toggler navbar-ligth" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
@@ -54,12 +53,9 @@
         </ul>
     </div>
 </nav> 
-</div>
 </header>
-   <!-- fin nav -->
-<!-- seccion principal --> 
-     <!--carrusel-->     
-
+<!-- fin nav -->
+<!--carrusel-->     
  <section class="mi-carrusel">
       <div class="d-none d-sm-block	d-sm-none d-md-block rounded">
         <div class="" style="background: url(img/carousel3.jpg) ;">
@@ -84,9 +80,9 @@
         </div>
       </div>
       <hr class="d-none d-sm-block	d-sm-none d-md-block" style="border-color:black;">
-    </section>
-   <!--fin carrusel-->
-    <!--inicio tarjeta-->
+ </section>
+ <!--fin carrusel-->
+ <!--inicio tarjeta-->
                                          
                 <div class="card-body justify-content-center">
                     <h5 class="card-title"></h5>
@@ -127,15 +123,6 @@
         
     </section>   
 
-         <!--efecto cambio color fuente doble click ingredientes-->
- <script>
-   $( "#ingredientes,#preparacion" ).dblclick(function() {
-   $(this).css({
-      "color":"red"
-        })
-    });  
- 
-  </script>
           <!--fin tarjeta-->  
           <!--inicio tarjeta-->
   
@@ -150,16 +137,7 @@
                     <p id="textopanqueque" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
           </div>
-  <!--evento desaparecer contenido -->
-  <script>
-    $(function(){
-     $("#panqueques").on("click",function(){
-
-     $ ("#fotopanqueque , #textopanqueque").toggle(1000,function(){
-    })
-     })
-    })
-  </script>
+  
           <!--fin de tarjeta-->
           <!--inicio tarjeta-->
 
@@ -172,18 +150,7 @@
                     <p id="textotiramisu" class="card-text">example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
- <!--evento desaparecer contenido -->
- <script>
-  $(function(){
-   $("#tiramisu").on("click",function(){
-
-   $ ("#fototiramisu , #textotiramisu").toggle(1000,function(){
-  })
-   })
-  })
-</script> 
-
-
+ 
  <!--fin de tarjeta-->
           <!--inicio tarjeta-->
  
@@ -208,52 +175,34 @@
 <br>
 </section>
           <!--fin de tarjeta-->
-<!--evento desaparecer contenido -->
-<script>
-  $(function(){
-   $("#plateada").on("click",function(){
 
-   $ ("#fotoplateada , #textoplateada").toggle(1000,function(){
-  })
-   })
-  })
-</script>          
 </main>
 <!-- inicio footer -->
 
-<footer class="bg-dark">
-<div class="footerancho1 bg-dark">
-    <div class="text-left tamaño1 bg-dark">    
+<footer>
+<div class="footerancho1 bg-black"> 
+    <div class="text-left tamaño1 bg-black">   
     <br>
     <form>
-      <div class="form-group bg-dark">
+      <div class="form-group bg-black">
         <label for="exampleInputEmail1">Nombre</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="form-control" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Nombre" aria-describedby="emailHelp">
         </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Asunto</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+        <input type="form-control" class="form-control" placeholder="Ingrese Motivo de Consulta" id="exampleInputPassword1">
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingrese Mensaje"></textarea>
       </div>
       <button id="enviarcorreo" type="submit" class="btn btn-primary">Enviar</button>
        </form>
     <br>
 </div>  
-<!--Evento jquery que genera alerta al enviar correo-->
-<script>
-  $( "#enviarcorreo" ).click(function() {
-    alert("El correo fue enviado correctamente!!");
-    
-  });
-  </script>
- <!--fin evento jquery--> 
+<!--comienzo footer-->
     <div class="bg-gris footerancho1">
-    
-    <!---->   
-    <div id="imagenynavegador" class="bg-gris tamaño1">
+        <div id="imagenynavegador" class="bg-gris tamaño1">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <br><br>
          <a class="navbar-brand" href="#"><h5 class="Cabinbold">Viajes Chile</h5></a>
@@ -277,9 +226,10 @@
          </div>
      </nav> 
      </div>
-          </div>  
+   </div>  
 </footer>
 </div>
+
 <!-- fin footer --> 
 </script>
 <!-- bootstrap scripts con jquery actualizado-->
