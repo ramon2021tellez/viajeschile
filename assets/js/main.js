@@ -35,11 +35,14 @@ $(function(){
       "color":"red"
         })
     });  
- smoothScroll.init({
+    smoothScroll.init({
     selector: ['data-scroll'],
-    selectorheader:null,
+    selectorheader: null,
     speed:2000,
    easing:'easeInOutCubic',
    offset:0,
    callback:function(ancho,toggle){}
  }); 
+ $(function () {
+   $('[data-toggle="tooltip"]').tooltip()
+ })
