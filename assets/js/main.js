@@ -35,4 +35,11 @@ $(function(){
       "color":"red"
         })
     });  
-  
+ smoothScroll.init({
+    selector: ['data-scroll'],
+    selectorheader:null,
+    speed:2000,
+   easing:'easeInOutCubic',
+   offset:0,
+   callback:function(ancho,toggle){}
+ }); 
